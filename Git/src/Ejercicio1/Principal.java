@@ -14,9 +14,14 @@ public class Principal {
 		
 		Integer suma = Suma.sumaDosNumeros(num1, num2);
 		Integer sumaAcum = Suma.sumaAcum(num3);
+		Integer resta = Resta.restaDosNumeros(num1, num2);
+		Integer restaAcum = Resta.restaAcum(num3);
 		
 		System.out.println("La suma de los dos numeros introducidos es: " + suma);
 		System.out.println("La suma acumulativa es: " + sumaAcum);
+		
+		System.out.println("La resta de los dos numeros introducidos es: " + resta);
+		System.out.println("La resta acumulativa es: " + restaAcum);
 		
 		sc.close();
 
