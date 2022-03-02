@@ -11,4 +11,6 @@ public class Suma {
 	public static int sumaAcum(int ac) {
 		return ac + acum;
 	}
+	
+	//Cambios en master para provocar fusion de 3 vias sin conflicto 
 }
