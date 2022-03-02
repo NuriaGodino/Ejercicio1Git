@@ -12,10 +12,10 @@ public class Principal {
 		int num2 = sc.nextInt();
 		int num3 = sc.nextInt();
 		
-		Integer suma = Suma.sumaDosNumeros(num1, num2);
-		Integer sumaAcum = Suma.sumaAcum(num3);
-		Integer resta = Resta.restaDosNumeros(num1, num2);
-		Integer restaAcum = Resta.restaAcum(num3);
+		int suma = Suma.sumaDosNumeros(num1, num2);
+		int sumaAcum = Suma.sumaAcum(num3);
+		int resta = Resta.restaDosNumeros(num1, num2);
+		int restaAcum = Resta.restaAcum(num3);
 		
 		System.out.println("La suma de los dos numeros introducidos es: " + suma);
 		System.out.println("La suma acumulativa es: " + sumaAcum);
