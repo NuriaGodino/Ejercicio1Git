@@ -9,9 +9,9 @@ public class Suma {
 	}
 	
 	public static int sumaAcum(int ac) {
-		//Vamos a provocar el conflicto ahora con master
+		//conflicto solucionado
 		return ac + acum;
 	}
 	
-	//Cambios en master para provocar fusion de 3 vias sin conflicto 
+	
 }
